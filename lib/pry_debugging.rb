@@ -1,6 +1,9 @@
-require "pry"
+require 'pry'
+
 def plus_two(num)
 	sum = num + 2
 	puts sum
   binding.pry
 end
+
+plus_two
